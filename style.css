@@ -1,0 +1,221 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Hero, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Styling */
+.header {
+    color: #000;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.logo {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    align-self: center;
+    margin-left: 12px;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 18px;
+    font-family: Hero, sans-serif;
+    display: flex;
+    gap: 16px;
+    margin-right: 12px;
+}
+
+/* Main Styling */
+.main {
+    color: white;
+    background-color: rgb(124, 29, 45);
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-container {
+    height: 500px;
+    width: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    margin-bottom: 5px;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Hero, sans-serif;
+}
+
+.header-text {
+    margin-top: 0px;
+    font-size: 18px;
+    font-family: Hero, sans-serif;
+}
+
+.button-one {
+    color: white;
+    background-color: rgb(46, 46, 46);
+    font-family: Hero, sans-serif;
+    border: 1px solid white;
+    border-radius: 0.5em;
+    padding: 8px 15px;
+    font-size: 18px;
+    height: 40px;
+    width: 150px;
+}
+
+.main-container-two {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image {
+    width: 562.5px;
+    height: 375px;
+}
+
+/* First Section Styling */
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: Hero, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    text-align: center;
+}
+
+.image-one {
+    width: 300px;
+    height: 450px;
+    border-radius: 0.5em;
+    border: 5px solid #000;
+}
+
+.image-two {
+    width: 300px;
+    height: 450px;
+    border-radius: 0.5em;
+    border: 5px solid #000;
+}
+
+.image-three {
+    width: 300px;
+    height: 450px;
+    border-radius: 0.5em;
+    border: 5px solid #000;
+}
+
+.image-four {
+    width: 300px;
+    height: 450px;
+    border-radius: 0.5em;
+    border: 5px solid #000;
+}
+
+.text {
+    margin-top: 8px;
+    font-size: 20px;
+    color: #1F2937;
+}
+
+/* Second Section Styling  */
+.section-two {
+    color: #1F2937;
+    background-color: #E5E7EB;
+    font-weight: light;
+    font-size: 36px;
+    margin-top: 100px;
+    display: flex;
+}
+
+.quote {
+    align-self: center;
+    margin: 150px 200px;
+}
+
+span {
+    float: right;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 20px 0 0 0;
+}
+
+/* Third Section Styling */
+.section-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-container {
+    margin: 80px 100px;
+    background-color: rgb(124, 29, 45);
+    color: white;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-text {
+    padding: 20px 100px;
+}
+
+.p-text:nth-of-type(1) {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.p-text:nth-of-type(2) {
+    margin-top: 5px;
+}
+
+.section-button {
+    margin-right: 100px;
+    align-self: center;
+}
+
+.section-button button {
+    padding: 8px 15px;
+    height: 40px;
+    width: 130px;
+    font-size: 15px;
+    background-color: transparent;
+    border-radius: 0.5em;
+    border: 2px solid white;
+    color: white;
+    font-weight: 600;
+}
+
+/* Footer Styling */
+footer {
+    color: white;
+    background-color: #1F2937;
+    padding: 25px 0;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
