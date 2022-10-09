@@ -12,12 +12,38 @@
 <body>
 
     <header class="header">
-        <div class="logo">DKD<br>Photography</div>
-        <ul class="header-links">
-            <li>About</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
-        </ul>
+        <!-- <div class="logo">
+            <img class="header-logo" src="./images/logoFinal3.png" alt="small circle logo">
+        </div> -->
+        <div class="header-container">
+            <a class="active" href="./index.html">Home</a>
+            <a href="">About</a>
+
+            <!-- Hidden until media query max-width 530px -->
+            <span>
+                <a class="active" href="./index.html">Home</a>
+                <a href="">About</a>
+            </span>
+
+            <img class="header-large-logo" src="./images/largeLogo3.png" alt="large dkd photography logo">
+            <a href="./portfolio.html">Portfolio</a>
+            <a href="">Contact</a>
+
+            <!-- Hidden until media query max-width 530px -->
+            <span>
+                <a href="./portfolio.html">Portfolio</a>
+                <a href="">Contact</a>
+            </span>
+
+            <!-- Hidden until media query max-width 400px -->
+            <span id="horizontal-links">
+                <br>
+                <a class="active" href="./index.html">Home</a>
+                <a href="">About</a>
+                <a href="./portfolio.html">Portfolio</a>
+                <a href="">Contact</a>
+            </span>
+        </div>
     </header>
 
     <main class="main">
@@ -25,14 +51,17 @@
             <h1>Creating memories that will last a lifetime</h1>
             <p class="header-text">Whether it's capturing all precious moments from your wedding, family pictures,
                 senior
-                portraits, head shots,
+                portraits, engagement shoots,
                 capturing your newborns' first moments, and more, we are here for you!</p>
             <button class="button-one">Contact Us</button>
+        </div>
+        <!-- For use at media query -->
+        <div>
+            <button class="contact-btn">Contact Us</button>
         </div>
         <div class="main-container-two">
             <img class="main-image" src="./images/main-image.jpg"
                 alt="baby with purple wrap with girl kissing baby's forehead">
-        </div>
         </div>
     </main>
 
@@ -51,7 +80,7 @@
                 <div class="text">Engagement Shoots</div>
             </div>
             <div class="picture">
-                <img class="image-three" src="./images/wedding.jpg" alt="bride and groom holding sign">
+                <img class="image-three" src="./images/wedding-2.jpg" alt="bride and groom holding sign">
                 <div class="text">Wedding Photography</div>
             </div>
             <div class="picture">
@@ -84,7 +113,7 @@
     </section>
 
     <footer>
-        <div>Copyright &copy; The Odin Project 2021</div>
+        <div>Copyright &copy; Website by Kayla Imming</div>
     </footer>
 
 </body>
