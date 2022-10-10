@@ -442,6 +442,46 @@ footer {
         margin: auto;
     }
 
+    img {
+        height: 200px;
+        width: 300px;
+    }
+
+    .vertical-img {
+        height: 300px;
+        width: 200px;
+    }
+
+    #adj {
+        height: 229.23px;
+        width: 276.9px;
+    }
+
+    #adj2 {
+        height: 269.6px;
+        width: 208.33px;
+    }
+
+    #adj3 {
+        height: 208.33px;
+        width: 269.6px;
+    }
+
+    #adj4 {
+        height: 277.8px;
+        width: 207.6px;
+    }
+
+    #adj5 {
+        height: 291.6px;
+        width: 225.33px;
+    }
+
+    #adj6 {
+        height: 243.5px;
+        width: 292.6px;
+    }
+
     .section-three {
         display: flex;
         justify-content: center;
@@ -501,6 +541,11 @@ footer {
 
     #horizontal-links>a {
         padding: 0 10px;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 800;
     }
 
     .section-container {
