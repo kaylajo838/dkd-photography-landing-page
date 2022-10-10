@@ -309,6 +309,13 @@ footer {
     }
 }
 
+@media (max-width: 750px) {
+    img {
+        height: 300px;
+        width: 450px;
+    }
+}
+
 @media (max-width: 700px) {
     /* .logo {
         display: none;
@@ -408,6 +415,16 @@ footer {
         margin: auto;
     }
 
+    p {
+        font-size: 18px;
+    }
+
+    img {
+        height: 200px;
+        width: 300px;
+
+    }
+
     .section-three {
         display: flex;
         justify-content: center;
@@ -474,6 +491,10 @@ footer {
         font-weight: 800;
     }
 
+    p {
+        font-size: 15px;
+    }
+
     .section-container {
         margin: 50px;
         display: flex;
@@ -507,5 +528,10 @@ footer {
 
     .active {
         font-size: 18px;
+    }
+
+    img {
+        height: 133.33px;
+        width: 200px;
     }
 }
