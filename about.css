@@ -250,7 +250,7 @@ footer {
     }
 
     .p-text:nth-of-type(1) {
-        text-align: start;
+        text-align: center;
         font-size: 20px;
     }
 
