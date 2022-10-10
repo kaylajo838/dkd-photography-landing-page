@@ -412,6 +412,16 @@ footer {
         margin: auto;
     }
 
+    img {
+        height: 200px;
+        width: 300px;
+    }
+
+    .vertical-img {
+        height: 300px;
+        width: 200px;
+    }
+
     .section-three {
         display: flex;
         justify-content: center;
@@ -471,6 +481,11 @@ footer {
 
     #horizontal-links>a {
         padding: 0 10px;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 800;
     }
 
     .section-container {
