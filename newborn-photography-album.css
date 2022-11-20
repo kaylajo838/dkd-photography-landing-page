@@ -77,7 +77,6 @@ body {
     /* border: 3px solid black; */
     /* padding: 5px 10px; */
     border-radius: 0.5em;
-    font-size: 30px;
 }
 
 a {
@@ -233,10 +232,6 @@ footer {
         gap: 20px;
     }
 
-    .active {
-        font-size: 26px;
-    }
-
     .header-large-logo {
         width: 250px;
         height: 125px;
@@ -286,10 +281,6 @@ footer {
         height: 104.17px;
     }
 
-    .active {
-        font-size: 24px;
-    }
-
     .section-container {
         margin: 30px;
         justify-content: space-evenly;
@@ -332,10 +323,6 @@ footer {
         gap: 30px;
     }
 
-    .active {
-        font-size: 22px;
-    }
-
     .section-container {
         margin: 30px;
         justify-content: space-evenly;
@@ -356,10 +343,6 @@ footer {
     .header-container {
         font-size: 15px;
         gap: 20px;
-    }
-
-    .active {
-        font-size: 20px;
     }
 
     .section-three {
@@ -527,9 +510,5 @@ footer {
 
     #horizontal-links>a {
         padding: 0 5px;
-    }
-
-    .active {
-        font-size: 18px;
     }
 }
