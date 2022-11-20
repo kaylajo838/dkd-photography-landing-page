@@ -214,6 +214,11 @@ h2 {
     margin-top: 8px;
     font-size: 20px;
     color: #1F2937;
+    font-weight: 700;
+}
+
+.text a:hover {
+    color: rgb(124, 29, 45);
 }
 
 /* Second Section Styling  */
