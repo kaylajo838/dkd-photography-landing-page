@@ -493,7 +493,7 @@ footer {
         margin-top: 0;
     }
 
-    .section-button button {
+    .section-button a {
         padding: 8px 8px;
         font-size: 14px;
     }
