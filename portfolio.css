@@ -201,13 +201,17 @@ h2 {
     margin-top: 5px;
 }
 
+.p-text-two {
+    display: none;
+}
+
 .section-button {
     /* margin-right: 100px; */
     align-self: center;
     padding-right: 40px;
 }
 
-.section-button button {
+.section-button a {
     padding: 8px 15px;
     height: 40px;
     width: 130px;
@@ -219,7 +223,7 @@ h2 {
     font-weight: 600;
 }
 
-.section-button button:hover {
+.section-button a:hover {
     background-color: white;
     color: black;
     border: 2px solid black;
@@ -306,12 +310,13 @@ footer {
 
     .section-text {
         padding: 20px 40px;
-        /* padding-right: 0; */
+        padding-top: 0;
     }
 
     .p-text:nth-of-type(1) {
         text-align: center;
         font-size: 20px;
+        margin-top: 0;
     }
 
     .p-text:nth-of-type(2) {
@@ -320,9 +325,25 @@ footer {
 
     .section-button {
         /* margin-right: 100px; */
-        padding: 20px;
-        padding-right: 40px;
+        padding: 0 20px;
+        margin-bottom: 10px;
         align-self: center;
+    }
+
+    .section-container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .p-text:nth-of-type(2) {
+        display: none;
+    }
+
+    .p-text-two {
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 10px;
     }
 }
 
@@ -379,7 +400,6 @@ footer {
     .section-text {
         /* padding: 20px 100px; */
         padding: 5px;
-        margin: 20px;
         margin-bottom: 0;
         text-align: center;
     }
@@ -391,14 +411,13 @@ footer {
         margin-bottom: 10px;
     }
 
-    .p-text:nth-of-type(2) {
-        margin: auto;
+    .p-text-two {
+        margin: 0;
     }
 
     .section-button {
-        margin: 20px;
-        margin-top: 10px;
         padding: 20px;
+        margin-bottom: 0;
     }
 }
 
@@ -431,14 +450,6 @@ footer {
         align-items: center;
     }
 
-    .section-text {
-        /* padding: 20px 100px; */
-        padding: 5px;
-        margin: 20px;
-        margin-bottom: 0;
-        text-align: center;
-    }
-
     .p-text:nth-of-type(1) {
         font-weight: 700;
         font-size: 20px;
@@ -446,13 +457,8 @@ footer {
         margin-bottom: 10px;
     }
 
-    .p-text:nth-of-type(2) {
-        margin: auto;
-    }
-
     .section-button {
-        margin: 20px;
-        margin-top: 10px;
+        padding-bottom: 10px;
     }
 }
 
@@ -521,10 +527,10 @@ footer {
     }
 
     .section-button {
-        margin-top: 10px;
+        padding-top: 10px;
     }
 
-    .section-button button {
+    .section-button a {
         padding: 8px 8px;
     }
 }
@@ -537,5 +543,30 @@ footer {
 
     #horizontal-links>a {
         padding: 0 5px;
+    }
+
+    .p-text-two {
+        font-size: 14px;
+    }
+
+    .section-button a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 265px) {
+    .section-button {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .section-button a {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        height: 15px;
+        width: 70px;
     }
 }
