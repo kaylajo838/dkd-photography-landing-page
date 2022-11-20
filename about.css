@@ -119,17 +119,11 @@ h2 {
 
 .text-container {
     display: flex;
+    padding: 0 50px;
 }
 
 .image-container {
     display: flex;
-}
-
-p {
-    text-align: center;
-    margin-right: 60px;
-    margin-left: 60px;
-    font-size: 20px;
 }
 
 img {
@@ -167,7 +161,7 @@ img {
 
 .section-text {
     padding: 20px 100px;
-    padding-right: 0;
+    /* padding-right: 0; */
 }
 
 .p-text:nth-of-type(1) {
@@ -380,6 +374,15 @@ footer {
     .p-text:nth-of-type(1) {
         font-size: 20px;
     }
+
+    .p-text:nth-of-type(2) {
+        display: none;
+    }
+
+    .p-text-two {
+        display: block;
+        text-align: center;
+    }
 }
 
 @media (max-width: 630px) {
@@ -548,8 +551,8 @@ footer {
 
     .section-button a {
         padding: 8px 8px;
-        height: 20px;
-        width: 110px;
+        height: 15px;
+        width: 70px;
         font-size: 13px;
     }
 
@@ -600,7 +603,7 @@ footer {
     .section-button a {
         padding: 6px 6px;
         height: 15px;
-        width: 105px;
+        width: 70px;
         font-size: 12px;
     }
 }
